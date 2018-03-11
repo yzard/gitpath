@@ -5,11 +5,11 @@
 from setuptools import setup
 
 setup(
-    name='IVM path finder',
+    name='git path finder',
     version='0.1',
     description='After import this module, you can import library etc.',
     author='Zhuo Yin',
     author_email='zhuoyin@gmail.com',
-    packages=['ivmpath'],
+    packages=['gitpath'],
     install_requires=['gitpython'],
 )
