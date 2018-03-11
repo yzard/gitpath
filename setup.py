@@ -5,7 +5,7 @@
 from setuptools import setup
 
 setup(
-    name='git path finder',
+    name='gitpath',
     version='0.1',
     description='After import this module, you can import library etc.',
     author='Zhuo Yin',
