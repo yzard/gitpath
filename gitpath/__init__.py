@@ -12,5 +12,8 @@ def get_git_root(path):
     git_root = git_repo.git.rev_parse("--show-toplevel")
     return git_root
 
+def repo_dir():
+    return get_git_root(os.getcwd())
 
-sys.path.insert(0, get_git_root(os.getcwd()))
+
+sys.path.insert(0, repo_dir())
