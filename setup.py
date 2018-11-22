@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name='gitpath',
-    version='0.1',
+    version='0.2',
     description='After import this module, you can import library etc.',
     author='Zhuo Yin',
     author_email='zhuoyin@gmail.com',
